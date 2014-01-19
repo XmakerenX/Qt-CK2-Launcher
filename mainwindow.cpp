@@ -141,7 +141,7 @@ void MainWindow::buttonClickedRun()
     }
 
     QProcess *gameProcess = new QProcess();
-    gameProcess->start(
+    gameProcess->startDetached(
         settings->value("userOptions/pathGame").toString()+settings->value("internal/executableName").toString(),
         arguments);
     gameProcess->closeWriteChannel();
