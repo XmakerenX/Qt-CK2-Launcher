@@ -1,3 +1,7 @@
+20-01-2014 release 3
+-----------------------
+- Changed gameProcess->start to gameProcess->startDetached to avoid game closing after launcher
+
 29-01-2013 release 2
 -----------------------
 - Launcher rpm/deb packages and repositories now available on openSuse Build Service.

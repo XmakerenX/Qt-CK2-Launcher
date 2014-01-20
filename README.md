@@ -16,20 +16,23 @@ Both x86 and x86_64 builds available for these distibutions:
 * openSUSE: Factory, 12.2, 12.1, 11.4
 * SLE 11: SP2, SP1
 
+Inststucions below are not updated it is best to follow the complie Inststucions and create the file
+There is a built file for ubuntu in the bin folder
+
 Page with links and inststucions:
-http://software.opensuse.org/download.html?project=home:sxxxx&package=qtck2launcher
+http://software.opensuse.org/download.html?project=home:sxxxx&package=qtck2launcher -- old
 
 Extra information about builds could be forund here:
-https://build.opensuse.org/package/show?package=qtck2launcher&project=home%3Asxxxx
+https://build.opensuse.org/package/show?package=qtck2launcher&project=home%3Asxxxx -- old
 
 I cant test all these builds, so if something not working let me know.
 
 ## Compile on Ubuntu 12.04:
 ```no-highlight
 sudo apt-get install git build-essential libqt4-dev qt4-qmake libqtwebkit-dev
-git clone https://github.com/sxxx/Qt-CK2-Launcher.git
+git clone https://github.com/XmakerenX/Qt-CK2-Launcher.git
 cd Qt-CK2-Launcher
-qmake
+qmake-qt4
 make
 ```
 
